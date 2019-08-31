@@ -1,4 +1,5 @@
 #include <iostream>
+#include "snake.h"
 #include "snake.cpp"
 int main()
 

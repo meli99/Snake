@@ -1,4 +1,3 @@
-#include "snake.cpp"
 #include "snake.h"
 void gotoxy(int x, int y) 
 { 

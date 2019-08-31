@@ -1,22 +1,5 @@
-#include <windows.h>
-#include <iostream>
-#include <stdlib.h>
-#include <conio.h>
-#include <stdio.h>
-
-#define W 72
-#define A 75
-#define D 77
-#define S 80
-#define ESC 27
-
-int cuerpo[200][2];
-int n = 1, tam = 10, dir = 3;
-int x = 10, y = 12;
-int xc = 30, yc = 15;
-int velocidad = 100;
-char tecla;
-
+#include "snake.cpp"
+#include "snake.h"
 void gotoxy(int x, int y) 
 { 
     HANDLE hCon; 
